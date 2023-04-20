@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,9 +25,26 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
 }
+
+.button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;  /* add pointer to change mouse cursor on hover */
+}
+
+/* add hover effect on button */
+.button:hover {
+  background-color: #6b24b3; /* change background color on hover */
+}
+
 
 @keyframes App-logo-spin {
   from {
